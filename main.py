@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 import pandas as pd
 import pickle
-from collections.abc import Mapping
+from collections.abc import MutableMapping
 
 app = Flask(__name__)
 data=pd.read_csv('/Users/wins/Documents/Web/CHP/house price.csv')
